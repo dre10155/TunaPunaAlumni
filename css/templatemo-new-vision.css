@@ -88,6 +88,9 @@ p {
     font-size: 2rem;
     color: #999;
 }
+.paypal{
+    margin: 0px 0px 0px 45%;
+}
 
 .tm-main-bg {
     background-image: url(../img/banner.png);

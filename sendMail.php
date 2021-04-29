@@ -29,11 +29,11 @@ require 'vendor/autoload.php';
  //Content
  $mail->isHTML(true);                                  // Set email format to HTML
  $mail->Subject = $_POST['contact_name'];
- $mail->Body    = $_POST['contact_message'];
+ $mail->Body    = $_POST['contact_message']. '<br><p>This a copy for your own reference<p>';
 
  $mail->send();
  //echo 'Message has been sent';
- header('Location: index.html');
+ header('Location: emailSuccess.html');
  exit();
 } catch (Exception $e) {
  echo 'Message could not be sent.';
