@@ -87,6 +87,8 @@ p {
     text-transform: uppercase;
     font-size: 2rem;
     color: #999;
+    font-size:16px;
+    margin: 0px 0px 0px 42px;
 }
 .paypal{
     margin: 0px 0px 0px 45%;
