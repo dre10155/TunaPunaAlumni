@@ -112,10 +112,6 @@ p {
 
 nav > ul > li { list-style: none; }
 
-.tm-nav {
-    border: 1px dotted #ccc;
-    margin: 0 5px 10px;
-}
 
 .tm-nav > ul {
     display: flex;
