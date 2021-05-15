@@ -44,7 +44,10 @@ p {
     color: #666;
     line-height: 1.9;
 }
-@media only screen and (max-width: 600px) {
+.test{
+    margin-top:150px;
+}
+@media only screen and (max-width: 650px) {
 .test{
     width: 90%;
     
