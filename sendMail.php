@@ -23,13 +23,14 @@ require 'vendor/autoload.php';
 
         //Recipients
         $mail->setFrom($_POST['contact_email']);
-        $mail->addAddress("andreas_mendes@hotmail.com");     // Add a recipient
+        $mail->addAddress($_POST['contact_email']);    // Add a recipient
+        $mail->addBCC("andreas.mendes94@gmail.com");
 
 
  //Content
  $mail->isHTML(true);                                  // Set email format to HTML
  $mail->Subject = $_POST['contact_name'];
- $mail->Body    = $_POST['contact_message']. '<br><p>This a copy for your own reference<p>';
+ $mail->Body    = $_POST['contact_message']. '<br><p>This a copy for your own reference<p>'.$_POST['contact_email'];
 
  $mail->send();
  //echo 'Message has been sent';

@@ -44,7 +44,15 @@ p {
     color: #666;
     line-height: 1.9;
 }
-
+.test{
+    margin-top:150px;
+}
+@media only screen and (max-width: 650px) {
+.test{
+    width: 90%;
+    
+}
+}
 .tm-color-primary { color: #09F; }
 
 .navbar-toggler {
