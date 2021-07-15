@@ -270,7 +270,10 @@ nav > ul > li { list-style: none; }
     margin-bottom: 10px;
 }
 
-.tm-welcome-row-2 { margin-bottom: 45px; }
+.tm-welcome-row-2 { 
+    margin-bottom: 45px;
+    margin-top:80px; 
+}
 
 .tm-article-link:hover .tm-article-title { color: #09F; }
 .tm-hover-color { color: #09F; }
@@ -493,6 +496,7 @@ footer a:hover {
 figure.effect-honey {
   background: #4a3753;
   max-width: 240px;
+  height: 175px;
 }
 
 figure.effect-honey img {
