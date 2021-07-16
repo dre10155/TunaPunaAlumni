@@ -244,7 +244,7 @@ nav > ul > li { list-style: none; }
 
 .tm-section-header {
     display: inline-block;
-    background-color: #c99;
+    background-color: #921d59;
     color: white;
     padding: 30px 90px 30px 30px;
     margin: 0;
@@ -328,7 +328,7 @@ nav > ul > li { list-style: none; }
 }
 
 .tm-article-icon {
-    color: #C99;
+    color: #921d59;
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -347,7 +347,7 @@ nav > ul > li { list-style: none; }
 .tm-article-link { align-self: flex-end; }
 
 .tm-btn {
-    background-color: #C99;
+    background-color: #921d59;
     color: white;
     padding: 10px 25px;
 }
@@ -385,7 +385,7 @@ nav > ul > li { list-style: none; }
     font-size: 30px;
     font-weight: 900;
     content: "\f068";
-    color: #ddd;
+    color: #921d59;
     opacity: 1;
     width: 30px;
     transition: all 0.3s ease;
@@ -394,7 +394,8 @@ nav > ul > li { list-style: none; }
 .slick-dots li button:hover:before, 
 .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
-    color: #C99;
+    color: #921d59;
+
 }
 
 footer {
