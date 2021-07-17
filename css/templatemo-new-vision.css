@@ -40,7 +40,14 @@ h1, h2, h3 {
     font-weight: 400;
 }
 
-p {
+.conduct-heading{
+    font-size:20px;
+    font-weight:600;
+}
+.conduct-list{
+    margin:0px 0px 0px 40px;
+}
+p,li {
     color: #666;
     line-height: 1.9;
 }
@@ -52,7 +59,7 @@ p {
     width: 90%;
     
 }
-}
+}.tm-approach-box
 .tm-color-primary { color: #09F; }
 
 .navbar-toggler {
@@ -112,8 +119,9 @@ p {
     margin-right: -40px;
 }
 
-.tm-about-bg { background-image: url(https://images.unsplash.com/photo-1532444458054-01a7dd3e9fca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1112&q=80); }
-.tm-services-bg { background-image: url(../img/new-vision-03.jpg); }
+.tm-about-bg { background-image: url(../img/fitness-2.jpg); }
+.tm-conduct-bg { background-image: url(../img/students.jpg); }
+.tm-services-bg { background-image: url(../img/students-2.jpg); }
 .tm-contact-bg { background-image: url(https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80); }
 .tm-registration-bg {background-image: url(https://images.unsplash.com/photo-1462536943532-57a629f6cc60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80)}
 
@@ -725,7 +733,11 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     }
 }
 
-.tm-media-2 { margin-bottom: 54px; }
+.tm-media-2 { 
+    margin-bottom: 54px;
+    height: 442px;
+
+}
 
 @media (max-width: 992px) {
     .tm-media-2 { margin-bottom: 30px; }
