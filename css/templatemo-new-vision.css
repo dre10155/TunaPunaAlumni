@@ -110,7 +110,7 @@ p,li {
 }
 
 .tm-main-bg {
-    background-image: url(../img/banner.png);
+    background-image: url(../img/Tuna_Puna.jpg);
     background-repeat: no-repeat;
     background-position: 45% top;
     height: 800px;
@@ -724,6 +724,9 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 .tm-approach-box {
     margin-left: 12px;
     margin-right: 12px;
+}
+.tm-box-p{
+    line-height: 1.2;
 }
 
 @media (max-width: 992px) {
